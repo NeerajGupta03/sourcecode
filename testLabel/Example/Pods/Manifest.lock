@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  testLabel: e3bd5b266852fa579e597833441aeaf59a05a8d7
+  testLabel: 78f76e665fe29c519ccd09faedc5b734d34ff167
 
 COCOAPODS: 0.39.0

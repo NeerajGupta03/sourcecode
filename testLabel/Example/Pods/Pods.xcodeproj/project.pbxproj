@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		077BE68B20AF1906145E7D054F927D01 /* testLabel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17344368889C54B8259ED0009558F8C5 /* testLabel.bundle */; };
-		39CA1D4ADB391B368FD50E9F2D883E36 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A0CF65999456DCC05D1C1AF9196F9C /* ReplaceMe.m */; };
-		51FA2AF00960BD584319C51B10FF3222 /* testLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A96CE067CB7719DC4F19BF13EC96D /* testLabel-dummy.m */; };
+		1987F17B23EFDEA99C767A9BF7CB3868 /* testLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB8C90E79BA69282FB4094FC09ED705 /* testLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D5DD806422315BF47AA4332C5B32008 /* NSString+StringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 033716AF4E36910CE9A66DEC8B7ED139 /* NSString+StringHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55552563E0EE6629A7B8ED3C414BC832 /* Pods-testLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FC05111A77F005DB84CF05845E14CA /* Pods-testLabel_Tests-dummy.m */; };
 		55A846B7D8DC9B4A19B670074AFA93CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		840A18DFA7324621C1CEB90057AB0C3E /* Pods-testLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70153B74F8788B4B77E982557E864CF1 /* Pods-testLabel_Example-dummy.m */; };
 		8A375DB6FED38525C70FC2068787B3FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		9CADA6023E5751EBF00BF66F91AAD12F /* testLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB8C90E79BA69282FB4094FC09ED705 /* testLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E2D5C517DE1FD2369B9823BA365B440 /* Pods-testLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E8C824C0DA842351CEE44B86EE5A2E /* Pods-testLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8EB40D2D9C9AB278F9381AAC9247AC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BFE570EA136AEBEFEFD27C6A93B0A715 /* testLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A96CE067CB7719DC4F19BF13EC96D /* testLabel-dummy.m */; };
 		D7BF50E64F605E50FA90176811E2CBC2 /* Pods-testLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C04F7E89AC9E3AA0CA39EDE48638583 /* Pods-testLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF88E0F0C502377ABE3BE9071345D716 /* NSString+StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C7601F1435D812441714A2F143AD53BE /* NSString+StringHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033716AF4E36910CE9A66DEC8B7ED139 /* NSString+StringHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+StringHelper.h"; sourceTree = "<group>"; };
 		1256E7B57D1E4EF67139FEE7B4249C1B /* Pods-testLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testLabel_Tests-resources.sh"; sourceTree = "<group>"; };
 		17344368889C54B8259ED0009558F8C5 /* testLabel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testLabel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1838485BCF939BCABA22C132FA060F72 /* Pods-testLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2E72581A0C2A369CB376BFC6AD6DF178 /* Pods-testLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		31A47FEC2C425773F2C2E6501985E200 /* Pods-testLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		36A0CF65999456DCC05D1C1AF9196F9C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		3C04F7E89AC9E3AA0CA39EDE48638583 /* Pods-testLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4996654E80592E01E19D73B5235472C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 		B61F2C8969D588DEC29BC3CE1ED4D2EA /* Pods-testLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C5A4FDAB3DDAC39F5E489F3B5619F653 /* Pods-testLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7601F1435D812441714A2F143AD53BE /* NSString+StringHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringHelper.m"; sourceTree = "<group>"; };
 		CCB8C90E79BA69282FB4094FC09ED705 /* testLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "testLabel-umbrella.h"; sourceTree = "<group>"; };
 		CCF1BC09FB3FEB5B9C6ED36FD8E3F042 /* testLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = testLabel.xcconfig; sourceTree = "<group>"; };
 		E1E1452C9580487DB55BA587DBE51270 /* Pods-testLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,12 +128,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		245401E3F1AE5ADC2348E8C7A4F92EC7 /* Pod */ = {
+		366E7FE40A5607EB47302C1F80B01A48 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CBA58FE570666365FF94D90CEDABF701 /* Classes */,
+				033716AF4E36910CE9A66DEC8B7ED139 /* NSString+StringHelper.h */,
+				C7601F1435D812441714A2F143AD53BE /* NSString+StringHelper.m */,
 			);
-			path = Pod;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		4DEC71CD14274D8DE4086C0ACF42F70C /* Development Pods */ = {
@@ -183,18 +186,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CBA58FE570666365FF94D90CEDABF701 /* Classes */ = {
+		D57B12CB71EE06B4ED017882939A14ED /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				36A0CF65999456DCC05D1C1AF9196F9C /* ReplaceMe.m */,
+				366E7FE40A5607EB47302C1F80B01A48 /* Classes */,
 			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		E7476E70D270B3B82CB2278E03A7AAB7 /* testLabel */ = {
 			isa = PBXGroup;
 			children = (
-				245401E3F1AE5ADC2348E8C7A4F92EC7 /* Pod */,
+				D57B12CB71EE06B4ED017882939A14ED /* Pod */,
 				54EFF4B5298ECB679DD5E10A38568484 /* Support Files */,
 			);
 			name = testLabel;
@@ -249,11 +252,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3123E00F1FE1EC6235508D25490B7E96 /* Headers */ = {
+		5B3ED345B9E223E3C1A82E249EED5F61 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CADA6023E5751EBF00BF66F91AAD12F /* testLabel-umbrella.h in Headers */,
+				1D5DD806422315BF47AA4332C5B32008 /* NSString+StringHelper.h in Headers */,
+				1987F17B23EFDEA99C767A9BF7CB3868 /* testLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +319,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37639B67A3D4B520CF2F26F98AE91544 /* Build configuration list for PBXNativeTarget "testLabel" */;
 			buildPhases = (
-				4FB1C1F7F8D718094A73B8CC411EC5E2 /* Sources */,
+				D4B7C1612637716483FDFB542B81A5E4 /* Sources */,
 				C4729F9D5D07AA68F66A8A6B110E4567 /* Frameworks */,
 				FDE699D103C33A5C6225F2103D96ECC6 /* Resources */,
-				3123E00F1FE1EC6235508D25490B7E96 /* Headers */,
+				5B3ED345B9E223E3C1A82E249EED5F61 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -396,15 +400,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4FB1C1F7F8D718094A73B8CC411EC5E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39CA1D4ADB391B368FD50E9F2D883E36 /* ReplaceMe.m in Sources */,
-				51FA2AF00960BD584319C51B10FF3222 /* testLabel-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE3877A95249CAFDDBED4E5936501CDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,6 +420,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				55552563E0EE6629A7B8ED3C414BC832 /* Pods-testLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B7C1612637716483FDFB542B81A5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF88E0F0C502377ABE3BE9071345D716 /* NSString+StringHelper.m in Sources */,
+				BFE570EA136AEBEFEFD27C6A93B0A715 /* testLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

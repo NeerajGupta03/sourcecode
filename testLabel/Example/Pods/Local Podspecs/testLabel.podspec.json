@@ -1,9 +1,9 @@
 {
   "name": "testLabel",
   "version": "0.1.0",
-  "summary": "A short description of testLabel.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/testLabel",
+  "summary": "A category for encoding string into html codes.",
+  "description": "This class will encode label text to html encoded tags.",
+  "homepage": "https://github.com/NeerajGupta03/sourcecode",
   "license": "MIT",
   "authors": {
     "Vipendra Gupta": "neeraj.gupta03@gmail.com"
