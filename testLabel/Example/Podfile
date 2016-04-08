@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'testLabel_Example', :exclusive => true do
+  pod 'testLabel', :path => '../'
+end
+
+target 'testLabel_Tests', :exclusive => true do
+  pod 'testLabel', :path => '../'
+
+  
+end

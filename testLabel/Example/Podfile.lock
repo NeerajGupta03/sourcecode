@@ -1,0 +1,14 @@
+PODS:
+  - testLabel (0.1.0)
+
+DEPENDENCIES:
+  - testLabel (from `../`)
+
+EXTERNAL SOURCES:
+  testLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  testLabel: e3bd5b266852fa579e597833441aeaf59a05a8d7
+
+COCOAPODS: 0.39.0
